@@ -1,0 +1,97 @@
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: #fff;
+  padding: 20px;
+}
+
+.centralizar{
+  top: 7%;
+  left:25%;
+  overflow: hidden;
+}
+.avatar{
+   background: black;
+   height: 184px;
+   width: 184px;
+   position: relative;
+   float: left;
+   border-radius: 50%;
+   overflow: hidden;
+   /*top: 20%;
+   left: 20%;*/
+}
+
+
+.identificadores{
+width: 50%;
+float: left;
+position: relative;
+overflow: hidden;
+}
+
+table,tr,th{
+  color:black;
+  border: 3px solid black;
+}
+th{
+  padding: 3px;
+}
+
+.identificadores-nome{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  margin: 10px;
+  margin-top: 30px;
+  background: transparent;
+  height: 20px;
+  width:  50%;
+  position: relative;
+  float: left;
+  left: 5%;
+  /*left: 30%;top: 25%;*/
+  color: black;
+  display: table; 
+}
+
+.identificadores-curso{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  margin-left: 10px;
+  background: transparent;
+  height: 20px;
+  width:  50%;
+  position: relative;
+  float: left;
+  left: 5%;
+  display: table;
+  clear: both;
+  /*left: 30%;
+  color: black;
+  top: 30%;*/
+}
+
+.horarios{
+   margin-top: 10px;
+   background: transparent;
+   height: 25px;
+   width: 200px;
+   left: 10%;
+   position: relative;
+   float: left;
+   display: table;
+   clear: both;
+}

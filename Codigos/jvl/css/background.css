@@ -1,0 +1,120 @@
+* {
+  position: relative;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /*background-image: linear-gradient(-180rad,rgba(95, 103, 109, 1),rgba(13, 12, 10, 0.73), rgba(95, 103, 109, 1));
+  background:
+  repeating-linear-gradient(
+    to top left,
+    #909396 0,
+    #909396 2em,
+    #5f676d 2em,
+    #5f676d 4em,
+    #b7b9bc 4em,
+    #b7b9bc 6em
+  ),
+  repeating-linear-gradient(
+    to right,
+    #5f676d 0,
+    #5f676d 2em,
+    #909396 2em,
+    #909396 4em,
+    #b7b9bc 4em,
+    #b7b9bc 6em
+  ), white;*/
+
+
+   background:
+  /*repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 1em,
+    rgba(95,95,95,0.6) 0,
+    rgba(95,95,95,0.6) 2em,
+    transparent 0,
+    transparent 3em,
+    rgba(95,95,95,0.6) 0,
+    rgba(95,95,95,0.6) 4em,
+    transparent 0,
+    transparent 5em,
+    #ccc 0,
+    #ccc 6em,
+    transparent 0,
+    transparent 7em,
+    black 0,
+    black 8em
+  ),*/
+  repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 1em,
+    rgba(95,95,95,0.6) 0,
+    rgba(95,95,95,0.6) 2em,
+    transparent 0,
+    transparent 3em,
+    black 0,
+    black 4em,
+    transparent 0,
+    transparent 5em,
+    #fff 0,
+    #fff 6em
+  ), #cc9900;
+
+background-blend-mode: multiply;
+  color: #fff;
+}
+
+.barra-titulo {
+  position: relative;
+  margin-bottom: 3em;
+  height: 15em;
+  /*background: #474d52;*/
+  background:
+  linear-gradient(
+    #474d52,
+    transparent
+  ),
+  linear-gradient(
+    -45deg,
+    #3b4044,
+    transparent
+  ),
+  linear-gradient(
+    45deg,
+    black,
+    transparent
+  );
+  background-blend-mode: multiply;
+}
+
+.barra-titulo > h2 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12em;
+  opacity: 0.7;
+  cursor: default;
+  color: #cc9900;
+  box-sizing: content-box;
+  border: none;
+  font: normal 12em/normal "Passero One", Helvetica, sans-serif;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) ;
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}

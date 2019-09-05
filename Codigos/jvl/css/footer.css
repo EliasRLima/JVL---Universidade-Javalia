@@ -1,0 +1,28 @@
+.footer{
+	height: 22px;
+	width: 100%;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	font-style: italic;
+	opacity: 0.7;
+	color: #cc9900;
+	left: 0; 
+	z-index: 3;
+	background:
+  linear-gradient(
+    #474d52,
+    transparent
+  ),
+  linear-gradient(
+    -45deg,
+    #3b4044,
+    transparent
+  ),
+  linear-gradient(
+    45deg,
+    black,
+    transparent
+  );
+	background-blend-mode: multiply;
+}

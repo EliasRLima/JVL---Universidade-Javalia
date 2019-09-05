@@ -1,0 +1,45 @@
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: black;
+  padding: 20px;
+}
+
+.central{
+  border: 3px solid #cc9900;
+  background-image: linear-gradient(-180rad,rgba(204,153,0,1),rgba(204,153,0,0.73), rgba(204,153,0,1));
+  left: 35%;
+  top: 20%;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+.central-texto{
+  background: transparent;
+  width: 100%;
+  height: 100px;
+  top: 30%;
+  position: absolute;
+}
+
+.topo-texto{
+  background: transparent;
+  width: 100%;
+  height: 100px;
+  top: 10%;
+}
+
