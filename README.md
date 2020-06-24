@@ -1,9 +1,7 @@
 # JVL - Universidade Javalia
  
-Sistema de universidade simples para a JVL (Universidade Fictícia)
-
-O sistema é focado principalmente em design e informações
-
+Sistema de universidade simples para a JVL (Universidade Fictícia) feito com uso do codeigniter</br></br>
+O sistema é focado principalmente em design e informações</br>
 </br>
 </br>
 FUNCIONALIDADES</br>
